@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet ID Registration Form</title>
+</head>
+<body> 
+    <!-- 
+        General Information
+        - Name
+        - Date of Birth
+        - Weight
+        - Owner Email
+
+        Detail Information
+        - Fur Color
+        - Favorite things
+        - Species
+
+        Other Information
+        - Pet Photo
+        - Note
+
+     -->
+    <h1>Pet Registration From</h1>
+     <form action="#">
+        <fieldset>
+            <legend>General Infomation</legend>
+            Name: <input type="text" name="petname"><br>
+            Date of Birth: <input type="date" name="petDateOfBirt"><br>
+            Weight: <input type="number" name="petWeight" min="0"><br>
+            Owner Email: <input type="email" name="petOwnerEmail"><br>
+            </fieldset>
+        <fieldset>
+            <legend>Detail Infomation</legend>
+            Fur Color: 
+            <input type="radio" name="petFurColor" value="white" > White
+            <input type="radio" name="petFurColor" value="black"> Black
+            <input type="radio" name="petFurColor" value="yellow"> Yellow
+            <input type="radio" name="petFurColor" value="red"> Red
+            <br>
+            Favorite things: 
+                <input type="checkbox" name="petFavoriteThings" value="milk"> Milk
+                <input type="checkbox" name="petFavoriteThings" value="playing"> Playing
+                <input type="checkbox" name="petFavoriteThings" value="walking"> Walking
+            <br>
+            Species:
+            <select name="petSpecies">
+                <option value="meodentaytang">meodentaytang</option>
+                <option value="meonaucao">meonaucao</option>
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+            Pet Photo: <input type="file" name="petPhoto">
+            <br>
+            Note: <textarea name="petNote" cols="30" rows="10"></textarea>
+        </fieldset>
+     </form>
+
+     <h2>Registration Pets</h2>
+     <table>
+        <tr>
+            <th>No.</th>
+            <th>Pet Name</th>
+            <th>Registration Date</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Monly</td>
+            <td>12/11/2022</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sky</td>
+            <td>12/11/2022</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Donky</td>
+            <td>12/11/2022</td>
+        </tr>
+
+     </table>
+</body>
+</html>
