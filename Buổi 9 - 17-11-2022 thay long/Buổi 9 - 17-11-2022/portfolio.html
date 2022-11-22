@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+            color: thay đổi màu chữ
+            background-color: thay đổi màu nền
+            font-family: điều chỉnh font chữ
+            font-size: điều chỉnh size chữ
+            letter-spacing: điều chỉnh khoảng cách giữa các chữ cái
+            width: điều chỉnh kích thước chiều rộng
+            height: điều chỉnh kích thước chiều cao
+            border: thiết lập đường viền cho element
+            border-radius: thiết lập độ bo góc cho element
+            padding: điều chỉnh khoảng cách giữa content và border của element
+            margin: điều chỉnh kích thước phần không gian nằm ngoài border(margin) của element(cách sử dụng giống padding)
+        */
+        body {
+            background-color: darkkhaki;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 36px;
+        }
+
+        h1 {
+            color: deeppink;
+        }
+
+        h2 {
+            color: indigo;
+            background-color: #FD4141;
+            letter-spacing: 5px;
+            height: 150px;
+            width: 70%;
+
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: white; */
+
+            border: 10px dotted white;
+            border-radius: 30px;
+
+            /* padding: 40px;  */
+            /* padding-top: 40px;
+            padding-left: 50px;
+            padding-right: 0px;
+            padding-bottom: 30px; */
+
+            padding: 40px 0px 30px 50px;  /* top -> right -> bottom -> left */
+            /* 
+            top: 40px
+            left: 50px
+            bottom: 30px
+            right: 0px
+            */
+
+            margin: 0px;  
+        }
+
+        img {
+            height: 200px;
+            width: auto;
+            border: 10px dashed orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        - Headings: h1, h2, h3, h4, h5, h6
+        - Paragraph: p
+        - Image: img
+        - Video: video
+        - Audio: audio
+        - Link: a
+        - Unordered list: ul + li
+        - Ordered list: ol + li
+        - Break line: br
+        - Horizontal line break: hr
+     -->
+
+    <h1>Lam Duc Long's Portfolio</h1>
+    <img src="./Profile Picture.jpg" alt="" width="600">
+
+    <h2>Self Introduction</h2>
+    <video controls autoplay muted width="600" src="./y2mate.com - How to Give a 60 Second SelfIntroduction Presentation_1080p.mp4"></video>
+    <br>
+
+    <h2>General Information</h2>
+    <hr>
+    <h3>Gender</h3>
+    <p>Male</p>
+    <h3>Email</h3>
+    <p>longlamduc@gmail.com</p>
+    <h3>Birthday</h3>
+    <p>08/11/2022</p>
+    <h3>Address</h3>
+    <p>CodeGym Online</p>
+    <h3>Phone number</h3>
+    <p>0987654321</p>
+    <h3>Link github</h3>
+    <a href="https://github.com/longlamduc">Click here to view my github profile</a>
+    <br>
+
+    <h2>Favorite Songs</h2>
+    <hr>
+    <ol>
+        <li>Baby Shark <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/020g-0hhCAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </li>
+        <li>Hello</li>
+        <li>All I want for Chirstmas is you</li>
+    </ol>
+
+    <br>
+
+    <h2>Favorite Books</h2>
+    <hr>
+    <ol>
+        <li>How Business Work</li>
+        <li>Clean Code</li>
+        <li>How we're f**king up the planet</li>
+    </ol>
+    <br>
+
+    <h2>Social Media</h2>
+    <ul>
+        <li>Facebook</li>
+        <li>Zalo</li>
+        <li>Instagram</li>
+    </ul>
+    <hr>
+</body>
+</html>
