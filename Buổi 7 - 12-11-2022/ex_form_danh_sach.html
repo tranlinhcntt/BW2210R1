@@ -7,9 +7,9 @@
     <title>Registration study</title>
   </head>
   <body>
-    <h1>ĐĂNG KÝ HỌC VIÊN</h1>
+    
 
-    <p>Họ và tên <input type="text" name="yourname" /></p>
+    <!-- <p>Họ và tên <input type="text" name="yourname" /></p>
     <p>Ngày Sinh <input type="date" name="birthday" /></p>
     <p>
       Giới tính <input type="radio" name="gioitinh" value="Nam" />Nam
@@ -29,37 +29,44 @@
     </p>
     <p>Email <input type="email" name="email" /></p>
     <p>Điện THoại <input type="tell" name="tell" /></p>
-    <hr>
+    <hr> -->
 
-    <table>
+    
+    <table style="background-color:darkkhaki ;">
       <tr>
+        <td style="background-color:aqua ;" colspan="2"><h4>ĐĂNG KÝ HỌC VIÊN</h4></td>
+      </tr>
+      <tr>
+        <td>Họ và tên</td>
         <td>
-          <p>Họ và tên <input type="text" name="yourname" /></p>
+           <input type="text" name="yourname" />
         </td>
       </tr>
       <tr>
+        <td>Ngày Sinh</td>
         <td>
-          <p>Ngày Sinh <input type="date" name="birthday" /></p>
+          <input type="date" name="birthday" />
         </td>
       </tr>
       <tr>
+        <td>Giới tính</td>
         <td>
-          <p>
-            Giới tính <input type="radio" name="gioitinh" value="Nam" />Nam
+        
+             <input type="radio" name="gioitinh" value="Nam" />Nam
             <input type="radio" name="gioitinh" value="nu" />Nữ
-          </p>
+        
         </td>
       </tr>
       <tr>
+        <td>Địa chỉ</td>
         <td>
-          <p>Địa chỉ <textarea name="adress" cols="30" rows="10"></textarea></p>
+          <textarea name="adress" cols="20" rows="3"></textarea>
         </td>
       </tr>
 
       <tr>
-        <td>
-          <p>
-            Lớp
+        <td>Lớp</td>
+        <td>             
             <select name="class">
               <option value="selectclass">-Chọn lớp-</option>
               <option value="1A">1A</option>
@@ -67,19 +74,25 @@
               <option value="2A">3A</option>
               <option value="2A">4A</option>
               <option value="2A">5A</option>
-            </select>
-          </p>
+            </select>        
         </td>
       </tr>
       <tr>
+        <td>Email </td>
         <td>
-          <p>Email <input type="email" name="email" /></p>
+          <input type="email" name="email" />
         </td>
       </tr>
       <tr>
+        <td>Điện THoại</td>
         <td>
-          <p>Điện THoại <input type="tell" name="tell" /></p>
+        <input type="tell" name="tell" />
         </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button type="submit">Đăng Ký</button>
+            <button type="reset">nhập lại</button> </td>
       </tr>
     </table>
   </body>
