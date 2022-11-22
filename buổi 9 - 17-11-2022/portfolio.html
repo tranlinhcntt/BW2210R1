@@ -7,55 +7,57 @@
     <title>Profile</title>
 
 <style>
-
     /* 
-    
-    margin: Điều chỉnh kích thước phần không gian nằm ngoài border( margin) của Element (cách sử dụng )
+        color: thay đổi màu chữ
+        background-color: Thay đổi màu nền 
+        font-family: điều chỉnh font chữ 
+        font-size : điều chỉnh kích thước chữ
+        letter-spacing: điều chỉnh khoảng cách giữa các chữ 
+        width: điều chỉnh kích thước chiều rộng
+        height : điều chỉnh kích thước chiều cao 
+        boder-width: độ dày của đường viền
+        boder: thiết lập đường viền cho element 
+        padding: điều chỉnh khoảng cách giữa conten và border của element
+        margin: điều chỉnh kích thước phần không gian nằm ngoài border(margin) của element( cách sử dụng tương tự)
     */
-body {
+    body {
+        background-color: lightblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 36px;
+    }
+    h1{
+        color:brown;
+    }
+    h2{
+        color:#FFE4DE;
+        background-color:blueviolet;
+        letter-spacing: 5px;
+        width: 70%;
+        height: 150px;
 
+        /* border-width: 10px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255); */
 
-}
+        border: 10px inset white;        
+        border-radius: 30px;
+        
+        /* padding: 40px; */
+        
+        /* padding-top: 40px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+        padding-right: 0px; */
+        padding: 40px 0px 30px 100px;  /* top - right - bottom - left */
 
-
-img{
-
-
-}
-h2{
-    color: aqua;
-    background-color: brown;
-    letter-spacing: 5px;
-    height: 150px;
-    width: 70%;
-
-    border: 10px dotted white;
-    border-radius: 30px; 
-
-    /* padding: 40px;
-    padding-top: 40px;
-    padding-left: 60px;
-    padding-right: 70px;
-    padding-bottom: 40px; */
-
-    padding: 40px 0px 30px 50px; /* top -> right -> bottom -> left */
-
-    /* top: 40px
-    left: 50px
-    bottom: 30px
-    right: 0px */
-
-    margin:0px;
-
-
-}
-
-
-
-
+        margin: 0px;
+    }
+    img {
+        height: 200px;
+        width: auto;
+        border: 10px dashed blue;
+    }
 </style>
-
-
 
 </head>
 <body>
