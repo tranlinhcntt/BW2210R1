@@ -1,0 +1,55 @@
+html , body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    width: 70%;
+    height: 70%;
+    background-color:cadetblue;
+    margin: auto;
+    margin-top: 70px;
+
+
+
+    /* CSS GRID */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: 15% 1fr 15%;
+    grid-template-areas: 
+    "header header header"
+    "menu main right"
+    "menu footer footer" ;
+
+
+}
+.header {
+    background-color: aqua;
+    grid-area: header;
+}
+
+.menu {
+    background-color: bisque;
+    grid-area: menu;
+}
+
+.main-content {
+    background-color: brown;
+    grid-area: main ;
+
+}
+
+.right {
+    background-color: blueviolet;
+    grid-area: right;
+}
+
+.footer { 
+    background-color: coral;
+    grid-area: footer;
+}
