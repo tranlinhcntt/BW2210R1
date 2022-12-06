@@ -12,7 +12,15 @@
             font-size: 13px;            
         }
         #table001 tr td {
-                      border: 1px solid rgb(188, 188, 188);
+                      border: 0.5px solid rgb(255, 255, 255);
+                     
+      }
+      tr:nth-last-child(even) {
+        background-color: rgb(230, 230, 230)
+    }
+
+      #table001 {
+        border-collapse: collapse;
       }
      
     </style>
@@ -106,7 +114,7 @@
     </div>
     <table id="table001" style="font-size: 11px;width: 100%;" >
         
-        <tr style="width: 20%;height: 40px; background-color: rgb(192, 192, 192); text-align: center; ">
+        <tr style="width: 20%;height: 40px; background-color: rgb(125, 123, 123); text-align: center; ">
             <td></td>
             <td style="width: 100px" >Strongly Disagree</td>
             <td style="width: 100px">Disagree</td>
@@ -120,7 +128,7 @@
             <td><input type="radio" name="tableradio1"><br>3</td>
             <td><input type="radio" name="tableradio1"><br>4</td>
         </tr>
-        <tr style="width: 20%; background-color: rgb(197, 192, 192);height: 40px;text-align: center; ">
+        <tr style="width: 20%; height: 40px;text-align: center; ">
             <td style="text-align: left ;"><b>Our products are high quality.</b></td>
             <td><input type="radio" name="tableradio2"><br>1</td>
             <td><input type="radio" name="tableradio2"><br>2</td>
