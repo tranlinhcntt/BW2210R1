@@ -1,0 +1,66 @@
+html , body {
+    width: 100%;
+    height: 100%;
+    background-color:beige ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+.blog-intro1 {
+    background-color: black;
+    color: white;
+}
+
+h1 , .blog-intro {
+    text-align: center;
+}
+
+#blog-main {
+    width: 70%;
+    height: 85%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+.blog-left {
+    width: 65%;
+    height: auto;
+    background-color:white;
+    float: left;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 2%;
+}
+
+.blog-thumbnail {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.blog-content {
+    padding: 10px 10px 20px 10px;
+}
+
+
+h2 {
+    padding: 3% 2% 0 2% ;
+}
+
+.blog-right {
+    width: 33%;
+    height: auto;
+    background-color: white;
+    float: right;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.blog-right-1 > img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and max(800px) {
+    
+    
+}
+
