@@ -1,0 +1,110 @@
+html, body {
+    /* background-color: grey; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    padding: 0 3%;
+    margin: 0;
+    box-sizing: border-box; 
+    overflow-x: hidden;
+}
+
+header {
+    /* background-color: brown; */
+    height: 8%;
+}
+
+header img {
+    height: 90%;
+    margin-left: 10px;
+    margin-top: 4px;
+    float: left;
+}
+
+header ul {
+    list-style-type: none;  /* tắt dấu chấm đầu dòng */
+    padding: 0;
+    float: left;
+    margin-top: 35px;
+}
+
+header ul li {
+    float: left;
+    margin-left: 20px;
+}
+header button {
+    height: 100%;
+    width: 80px;
+    border: none;
+    float: right;
+    margin-right: 100px;
+    background-color: #008645;
+    color: white;
+    transition: 2s;
+}
+
+header button:hover {
+    /* chỉ áp dụng phần css bên trong khi button được hover*/
+    border: 2px solid #008645;
+    background-color: white;
+    color: #008645;
+    cursor: pointer;  /* thay đổi con chuột hình mũi tên thành bàn tay*/ 
+    opacity: 0.7; /* 0.0 ---> 1.0*/
+}
+.intro  {
+    width: 100%;
+    height: 90%;
+    /* background-color: blueviolet; */
+   }
+.intro img {
+    height: 100%;
+    width: 40%;
+    float: left;
+
+}
+.intro div
+{
+    float: left;
+    height: 100%;
+    width: 60%;
+    /* background-color: coral; */
+}
+.intro h1, .intro p {
+    text-align: right;
+}
+
+.intro h1 {
+    color: #008645;
+}
+.information {
+    width: 100%;
+    height: 50%;
+    padding-left: 15%;
+}
+.bg-green {
+    background-color: #008645;
+}
+
+.information img {
+    height: 100%;
+    float: left;
+    position: relative;
+    top: 40px;
+}
+
+.information p {
+    color: white;
+    font-size: 24px;
+    float: left;
+    width: 35%;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+#img-position {
+    top: -40px;
+}
+
+img + p {
+    margin-left: 500px;
+}
